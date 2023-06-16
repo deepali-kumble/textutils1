@@ -1,5 +1,5 @@
 {
-  "homepage": "https://deepali-kumble.github.io/textutils1/",
+  "homepage": "https://deepali-kumble.github.io/textutils1",
   "name": "textutils1",
   "version": "0.1.0",
   "private": false,
@@ -43,6 +43,6 @@
     ]
   },
   "resolutions" :{
-    "nth-check":"2.0.1"
-   }
+ "nth-check":"2.0.1"
+}
 }
