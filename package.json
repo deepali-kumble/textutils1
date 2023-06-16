@@ -1,14 +1,15 @@
 {
-  "homepage": "https://deepali-kumble.github.io/my-app",
+  "homepage": "https://deepali-kumble.github.io/textutils1",
   "name": "textutils1",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
-    "react-copy-to-clipboard": "^5.1.0",
+    "react-copy-to-clipboard": "^5.1.0",  
     "react-dom": "^18.2.0",
     "react-router": "^6.12.1",
     "react-router-dom": "^6.12.1",
