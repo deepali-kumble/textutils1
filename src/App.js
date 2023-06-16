@@ -50,7 +50,7 @@ function App() {
   // }
   return (
     <>
-      <BrowserRouter basename='/textutils1'>
+      <BrowserRouter basename='/textutils1/home'>
         <Navbar title="textUtils1" about="About Us" contact="Contact Us" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert}></Alert>
         <div className='container my-3' mode={mode}>
