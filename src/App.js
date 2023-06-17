@@ -50,14 +50,14 @@ function App() {
   // }
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter ="/textutils1">
         <Navbar title="textUtils1" about="About Us" contact="Contact Us" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert}></Alert>
         <div className='container my-3' mode={mode}>
           <Routes>
             <Route path="/about" element={<About mode={mode}/>}></Route>
             <Route
-             path="/"
+             exact path="/textutils1"
               element={
                 <TextForm
                   showAlert={showAlert}
