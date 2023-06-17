@@ -32,7 +32,7 @@ export default function Navbar(props) {
         {/* <a className="nav-link active" aria-current="page" href="#">
             Home
           </a> */}
-          <Link className="nav-link active" aria-current="page" to="/">
+          <Link className="nav-link active" aria-current="page" to="/textutils1">
             Home
           </Link>
         </li>
