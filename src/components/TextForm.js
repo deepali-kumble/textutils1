@@ -9,7 +9,8 @@ export default function TextForm(props) {
     color: props.mode==='light'?'black':'white',
     backgroundColor: props.mode==='light'?'#ECEBEB':'#15295F',
     border: '1px solid',
-    borderColor: props.mode==='light'?'#ECEBEB':'#0a0a4a'
+    borderColor: props.mode==='light'?'#ECEBEB':'#0a0a4a',
+    borderRadius: '30px'
 }
 
   const handleUpperCaseClick = () => {
