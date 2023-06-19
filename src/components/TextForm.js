@@ -9,7 +9,8 @@ export default function TextForm(props) {
     color: props.mode==='light'?'black':'white',
     backgroundColor: props.mode==='light'?'#ECEBEB':'#15295F',
     border: '1px solid',
-    borderColor: props.mode==='light'?'#ECEBEB':'#0a0a4a'
+    borderColor: props.mode==='light'?'#ECEBEB':'#0a0a4a',
+    borderRadius:'30px'
 }
 
   const handleUpperCaseClick = () => {
@@ -134,7 +135,7 @@ export default function TextForm(props) {
 
       <div className="container my-4" style={textFormStyle}>
         <h2><b>Your text summary</b> </h2>
-        <p><b>Number of words in your text:</b> {text.split(" ").filter((element) => { return element.length !== 0 }).length} </p>
+        <p><b>Number of words in your text:</b> {text.split(/\s+/).filter((element) => { return element.length !== 0 }).length} </p>
         <p><b> Number of chartacters in your text:</b> {text.length}</p>
         <p><b>{0.008 * text.split(" ").filter((element) => { return element.length !== 0 }).length}</b> minutes taken to read the words</p>
         </div>

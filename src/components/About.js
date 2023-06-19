@@ -62,13 +62,12 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={{backgroundColor: props.mode==='light'?'white':'#0a0a4a',color: props.mode==='light'?'black':'white'}}>
-              <strong>This is the first item's accordion body.</strong> It is shown by
-              default, until the collapse plugin adds the appropriate classes that we
-              use to style each element. These classes control the overall appearance,
-              as well as the showing and hiding via CSS transitions. You can modify
-              any of this with custom CSS or overriding our default variables. It's
-              also worth noting that just about any HTML can go within the{" "}
-              <code>.accordion-body</code>, though the transition does limit overflow.
+              TextUtils provides utility to manipulate text with the options given.You can Change the Text to UpperCase,
+              LowerCase,Alternating Case,Scentence Case,Title Case,You can also Copy the text to Clipboard and clear them.
+                    <br></br>
+                    This Site also counts the Number of words and characters typed.
+                    <br></br>
+                    The typed text can be previewed below.
             </div>
           </div>
         </div>
@@ -92,14 +91,10 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={{backgroundColor: props.mode==='light'?'white':'#0a0a4a',color: props.mode==='light'?'black':'white'}}>
-              <strong>This is the second item's accordion body.</strong> It is hidden
-              by default, until the collapse plugin adds the appropriate classes that
-              we use to style each element. These classes control the overall
-              appearance, as well as the showing and hiding via CSS transitions. You
-              can modify any of this with custom CSS or overriding our default
-              variables. It's also worth noting that just about any HTML can go within
-              the <code>.accordion-body</code>, though the transition does limit
-              overflow.
+            TextUtils is a free character counter tool that provides instant character count & word count statistics for a given text. TextUtils reports the number of words and characters. 
+            Thus it is suitable for writing text with word/ character limit.
+            This word counter software works in any web browsers such as Chrome, Firefox, Internet Explorer, Safari, Opera. It suits to count characters in facebook, blog, books, excel document, pdf document, essays, etc.
+
             </div>
           </div>
         </div>
@@ -123,14 +118,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={{backgroundColor: props.mode==='light'?'white':'#0a0a4a',color: props.mode==='light'?'black':'white'}}>
-              <strong>This is the third item's accordion body.</strong> It is hidden
-              by default, until the collapse plugin adds the appropriate classes that
-              we use to style each element. These classes control the overall
-              appearance, as well as the showing and hiding via CSS transitions. You
-              can modify any of this with custom CSS or overriding our default
-              variables. It's also worth noting that just about any HTML can go within
-              the <code>.accordion-body</code>, though the transition does limit
-              overflow.
+                Thank You For Visiting Us, Hope to have provided you with good functionality. See You Soon!!!
             </div>
           </div>
         </div>
